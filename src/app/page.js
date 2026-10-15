@@ -3,6 +3,21 @@ import ThemeToggle from "./theme-toggle";
 const projects = [
   {
     number: "01",
+    name: "PaperPilot",
+    type: "Research discovery workspace",
+    description:
+      "A research workspace for discovering academic papers, organizing a personal library, and keeping reading notes together.",
+    details: [
+      "Search scholarly works through the OpenAlex catalog",
+      "Save papers, collections, reading status, tags, and private notes with Supabase",
+      "Review phrase-based research-gap and future-work clues from abstracts or PDFs",
+    ],
+    technologies: ["React", "Vite", "JavaScript", "Supabase", "OpenAlex API"],
+    live: "https://paper-pilot-kappa.vercel.app",
+    repository: "https://github.com/ChowdhuryShakilHasan/PaperPilot",
+  },
+  {
+    number: "02",
     name: "EasyShop",
     type: "E-commerce admin dashboard",
     description:
@@ -17,7 +32,7 @@ const projects = [
     repository: "https://github.com/ChowdhuryShakilHasan/EasyShop",
   },
   {
-    number: "02",
+    number: "03",
     name: "Product Management System",
     type: "Role-based marketplace",
     description:
